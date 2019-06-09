@@ -9,22 +9,6 @@ El proyecto dispone de dos capas:
 
 **-Admin** (controller 'Admin'), con plantilla básica [Prepbootstrap](http://www.prepbootstrap.com/ "") y control de acceso con [Ion_auth](http://benedmunds.com/ion_auth/ "").
 
-La estructura base es la siguiente:
-```bash
-
-MyCi_Basic/
-├── application/
-├── composer.json
-├── composer.lock
-├── public/
-│   ├── .htaccess
-│   └── index.php
-└── vendor/
-    └── codeigniter/
-        └── framework/
-            └── system/
-
-``` 
 
 Para su instalación descargar el zip o clonar el repositorio.
 

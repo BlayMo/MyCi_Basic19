@@ -1,0 +1,179 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6b249c212128c5c575447943aa61f69",
+    "packages": [
+        {
+            "name": "codeigniter/framework",
+            "version": "3.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcit-ci/CodeIgniter.git",
+                "reference": "c576995304fc3609cca0b7b92d1b2cd611ec82f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/c576995304fc3609cca0b7b92d1b2cd611ec82f5",
+                "reference": "c576995304fc3609cca0b7b92d1b2cd611ec82f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*",
+                "phpunit/phpunit": "4.* || 5.*"
+            },
+            "suggest": {
+                "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The CodeIgniter framework",
+            "homepage": "https://codeigniter.com",
+            "time": "2019-01-16T15:49:35+00:00"
+        },
+        {
+            "name": "compwright/codeigniter-installers",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/compwright/codeigniter-installers.git",
+                "reference": "adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/compwright/codeigniter-installers/zipball/adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f",
+                "reference": "adbbd5ae2cbf5a24a39931235b1ac7dab56abb4f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installer\\CodeigniterInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Hill",
+                    "email": "jhill9693@gmail.com",
+                    "homepage": "http://jonathonhill.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Composer installers for CodeIgniter",
+            "homepage": "https://github.com/compwright/codeigniter-installers",
+            "keywords": [
+                "MX",
+                "codeigniter",
+                "composer",
+                "core",
+                "hmvc",
+                "installer",
+                "library",
+                "module",
+                "spark",
+                "sparks"
+            ],
+            "time": "2012-11-12T16:11:38+00:00"
+        },
+        {
+            "name": "lonnieezell/codeigniter-forensics",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lonnieezell/codeigniter-forensics.git",
+                "reference": "57a26e9d4776a36085647d159539bff952b9f186"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lonnieezell/codeigniter-forensics/zipball/57a26e9d4776a36085647d159539bff952b9f186",
+                "reference": "57a26e9d4776a36085647d159539bff952b9f186",
+                "shasum": ""
+            },
+            "require": {
+                "compwright/codeigniter-installers": "*"
+            },
+            "type": "codeigniter-third-party",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lonnie Ezell",
+                    "email": "lonnieezell@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A high-powered, customizable Profiler replacement for CodeIgniter.",
+            "homepage": "http://lonnieezell.github.io/codeigniter-forensics/",
+            "keywords": [
+                "codeigniter",
+                "debug",
+                "profiler",
+                "spark"
+            ],
+            "time": "2018-04-02T03:12:01+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsstream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bovigo/vfsStream.git",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25T12:49:29+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lonnieezell/codeigniter-forensics": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": []
+}

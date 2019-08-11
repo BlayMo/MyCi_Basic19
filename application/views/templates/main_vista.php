@@ -92,7 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="<?= site_url('main') ?>">Portada</a></li>
-                        <li><a href="https://github.com/BlayMo/MyCi_Basic">GitHub</a></li>
+                        <li><a href="https://github.com/BlayMo/MyCi_Basic19">GitHub</a></li>
                         <li><a href="<?= site_url('main/contact') ?>">Contacto</a></li>
                         <?php if ($this->ion_auth->logged_in()) { ?>   
                             <li class="dropdown">
